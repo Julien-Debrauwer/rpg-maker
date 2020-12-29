@@ -1,0 +1,17 @@
+
+@import "scss/normalize";
+
+
+@import "scss/variables";
+
+
+@import "scss/base",
+		    "scss/reset";
+
+
+        
+body{
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.8rem;
+  line-height: 1.5;
+}
