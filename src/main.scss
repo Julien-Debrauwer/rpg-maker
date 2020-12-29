@@ -9,9 +9,59 @@
 		    "scss/reset";
 
 
-        
+
+// -------------------------------------------- 
+// BASE 
+// --------------------------------------------
+
+html {
+	font-size: 62.5%;
+}
+
 body{
-  font-family: 'Roboto Slab', serif;
+  background-color: $grey;
+  font-family: 'Roboto Slab', sans-serif;
   font-size: 1.8rem;
-  line-height: 1.5;
+  color: $black;
+}
+
+
+
+// -------------------------------------------- 
+// LAYOUT
+// --------------------------------------------
+
+.container{
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+
+// -------------------------------------------- 
+// HEROES
+// --------------------------------------------
+
+.heroes{
+  margin: 10rem 0;
+}
+
+.hero{
+  border: 1px solid $red;
+  border-radius: .5rem;
+  padding: 1rem;
+}
+
+
+// -------------------------------------------- 
+// TYPOGRAPHY
+// --------------------------------------------
+
+.title{
+  font-size: 3.2rem;
+  font-weight: bold;
+
+  &--hero{
+    font-size: 2.4rem;
+  }
 }
